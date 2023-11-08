@@ -348,7 +348,67 @@ font-weight: 600;
 line-height: normal;
 text-decoration: none;
 }
+#admit-section{
+    display: flex;
+}
+.blue{
+    border-radius: 5px;
+    background: #289BDE;
+    height: 300px;
+    margin-top: 130px;
+}
+.admit-headding{
+    width: 321px;
+    height: 60px;
+    padding-top: 80px;
+    margin-left: 100px;
+    
+  
+}
+.admit-headding h1{
+    color: var(--White-Color, #FFF);
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+ 
+}
+.admit-para{
+    width: 528px;
+    height: 60px;
+    padding-top: 80px;
+    margin-left: 100px;
+}
+.admit-para p{
+    color: var(--Dark-07, #F4F4F4);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.admit-btn{
+display: inline-flex;
+padding: 13px 33px;
+align-items: flex-start;
+border-radius: 5px;
+border: 1px solid var(--White-Color, #FFF);
+background: #FFF;
+margin-top: 122px;
+margin-left: 200px;
 
+}
+.admit-btn a{
+color: #289BDE;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+text-decoration: none;
+
+
+}
 
 
 
@@ -613,7 +673,7 @@ text-decoration: none;
                 width: 330px;
                 height: 120px;
                 margin: 0 auto;
-                margin-top: 20px;
+                margin-top: 20pxhnuj;
                
              
             }
@@ -629,6 +689,83 @@ text-decoration: none;
                 grid-template-columns: repeat(2,1fr);
                 width: 335px;
             }
+            .ready-to-join{
+                width: 345px;
+               margin: 0 auto;
+                
+            }
+            .blue{
+                border-radius: 5px;
+                background: #289BDE;
+                height: 223px;
+                width: 335px;
+               margin-top: 52px;
+            }
+            #admit-section{
+                display: flex;
+                flex-direction: column;
+            }
+            .admit-headding{
+                width: 129px;
+                height: 0px;
+                padding-top: 30px;
+            }
+            .admit-headding h1{
+            color: var(--White-Color, #FFF);
+             text-align: center;
+              font-family: Poppins;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 600;
+
+ }
+ .admit-para{
+    width: 305px;
+    height: 72px;
+    margin: 0 auto;
+    padding-top: 40px;
+ }
+ .admit-para p{
+color: var(--White-Color, #FFF);
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+ }
+ .details-admit{
+    height: 27px;
+ }
+ .right-admit{
+    height: 0px;
+ }
+ .admit-btn{
+    display: inline-flex;
+    padding: 7px 18px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: #FFF;
+    height: 38px;
+    display:flex;
+    justify-content: center;
+    width: 136px;
+    margin-top: 155px;
+    margin-left: 100px;
+    
+    
+    }
+    .admit-btn a{
+        color: #289BDE;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        height: 100%;
+    
+    }
+
 
 
 
