@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    width: 1120px;
+    width: 1320px;
     margin: 0 auto;
 }
 #pro-edu{
@@ -60,7 +60,7 @@ width: 84px;
 height: 30px;
 }
 #bannar-one-id{
-    background-image: url(img/bannar-girl.png) ;
+    background-image:url(img/bannar-girl.png) ;
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
@@ -240,7 +240,7 @@ line-height: normal;
     border-radius: 5px;
     border: 1px solid #289BDE;
     background: #289BDE;
-    margin-left: 100px;
+    
 }
 .cursor-btn a{
 color: #FFF;
@@ -268,36 +268,38 @@ justify-content: space-between;
 
 .e-learn-left img{
     width: 600px;
-    height: 806px;
+    height: 810px;
 }
 
 
 .e-learn-headding{
-    width: 349px;
+    width: 549px;
     height: 120px;
     margin-top: 130px;
  
 }
 .e-learn-headding h1{
- color: var(--Dark-01, #1D1D1D);
-font-family: Poppins;
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
+    color: var(--Dark-01, #1D1D1D);
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    
 
 }
 .e-learn-para{
-    width: 349px;
+    width: 606px;
     height: 210px;
     margin-top: 10px;
  
 }
 .e-learn-para p{
-color: var(--Dark-03, #777);
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
+    color: var(--Dark-03, #777);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 .first-highlight-headding{
     width: 125px;
@@ -318,7 +320,7 @@ font-weight: 600;
 }
 .first-highlight-para{
     width: 142px;
-    height: 30px;
+   
 }
 .first-highlight-para p{
     color: var(--Dark-03, #777);
@@ -408,6 +410,89 @@ font-weight: 600;
 text-decoration: none;
 
 
+}
+
+
+/* students .................................... students */
+
+.student-headding{
+    width: 549px;
+    margin-top: 130px;
+}
+.student-headding h1{
+ color: var(--Dark-01, #1D1D1D);
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+}
+.student-para{
+width: 556px;
+color: var(--Dark-03, #777);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-top: 20px ;
+}
+#student-id{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.student-card{
+width: 312px;
+height: 400px;
+border-radius: 5px;
+border: 1px solid var(--Dark-06, #E8E8E8);
+background: #FFF;
+}
+.student-details h1{
+width: 205px;
+color: var(--Dark-02, #4A4A4A);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 21px;
+
+}
+.student-details p{
+color: var(--Dark-03, #777);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 111px;
+margin-top: 10px;
+}
+.view-btn{
+width: 146px;
+height: 56px;
+border-radius: 5px;
+border: 1px solid #289BDE;
+background: #289BDE;
+display: inline-flex;
+padding: 13px 33px;
+align-items: flex-start;
+margin-top: 50px;
+
+}
+.view-btn a{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+.views{
+    width: 146px;
+    margin: 0 auto;
 }
 
 
@@ -670,19 +755,36 @@ text-decoration: none;
             
             }
             .e-learn-headding{
-                width: 330px;
-                height: 120px;
+                width: 289px;
+                height: 60px;
                 margin: 0 auto;
                 margin-top: 20pxhnuj;
                
              
             }
+            .e-learn-headding h1{
+color: var(--Dark-01, #1D1D1D);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+            }
             .e-learn-para{
-                width: 330px;
-                height: 210px;
+              
+               
                 margin-top: 10px;
                 margin: 0 auto;
+                width: 289px;
              
+            }
+            .e-learn-para p{
+                color: var(--Dark-03, #777);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
             }
             .highlight{
                 display: grid;
@@ -765,8 +867,117 @@ font-weight: 400;
         height: 100%;
     
     }
+    .first-highlight-headding{
+        width: 70px;
+        
+    }
+    .first-highlight-headding h1{
+color: var(--Dark-01, #1D1D1D);
+text-align: center;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+
+    }
+    .first-highlight-headding{
+        width: 114px;
+        margin-top: 130px;
+        margin-left: 30px;
+    }
+    .first-highlight-para{
+margin-left: 30px;
+    }
+    .first-highlight-para p{
+  color: var(--Dark-03, #777);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .learn-btn{
+        margin-left: 30px;
+    }
+    .student-headding{
+width: 222px;
+margin: 0 auto;
+margin-top: 32px;
+    }
 
 
+.student-headding h1{
+color: var(--Dark-01, #1D1D1D);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.student-para{
+    width: 305px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.student-para p{
+ color: var(--Dark-03, #777);
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; 
+
+}
+
+
+
+
+
+
+
+
+
+
+.student-card-img img{
+width: 335px;
+height: 300px;
+}
+.student-details h1{
+    color: var(--Dark-02, #4A4A4A);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 auto;
+}
+.student-details p{
+    color: var(--Dark-03, #777);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 139px;
+   margin: 0 auto;
+}
+#student-id{
+    display: flex;
+    flex-direction: column;
+gap: 100px;
+}
+.student-card{
+    width: 335px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid var(--Dark-06, #E8E8E8);
+    background: #FFF;
+    margin: 0 auto;
+    }
 
 
 
