@@ -252,7 +252,102 @@ font-weight: 600;
 text-decoration: none;
 
 }
+/* elearn-/////////////////////////////////////////////start */
 
+
+.Bg{
+    background-color: #F4FAFD;
+    margin-top: 143px;
+}
+
+#e-leard-id{
+display: flex;
+justify-content: space-between;
+
+}
+
+.e-learn-left img{
+    width: 600px;
+    height: 806px;
+}
+
+
+.e-learn-headding{
+    width: 349px;
+    height: 120px;
+    margin-top: 130px;
+ 
+}
+.e-learn-headding h1{
+ color: var(--Dark-01, #1D1D1D);
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+
+}
+.e-learn-para{
+    width: 349px;
+    height: 210px;
+    margin-top: 10px;
+ 
+}
+.e-learn-para p{
+color: var(--Dark-03, #777);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+.first-highlight-headding{
+    width: 125px;
+    height: 60px;
+}
+.first-highlight-headding h1{
+color: var(--Dark-01, #1D1D1D);
+text-align: center;
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+
+}
+.highlight{
+    display: flex;
+    justify-content: space-between;
+}
+.first-highlight-para{
+    width: 142px;
+    height: 30px;
+}
+.first-highlight-para p{
+    color: var(--Dark-03, #777);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.learn-btn{
+border-radius: 5px;
+border: 1px solid #289BDE;
+background: #289BDE;
+display: inline-flex;
+padding: 13px 33px;
+align-items: flex-start;
+margin-top: 30px;
+
+}
+.learn-btn a{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
 
 
 
@@ -494,6 +589,48 @@ text-decoration: none;
         text-decoration: none;
         
         }
+        .Bg{
+            width: 335px;
+            margin: 0 auto;
+            margin-top: 32px;
+ 
+        }
+        .e-learn-left{
+            width: 334px;
+            margin: 0 auto;
+        }
         
+        .e-learn-left img{
+            width: 334px;
+            height: 224px;
+        }
+        #e-leard-id{
+            display: flex;
+           flex-direction: column;
+            
+            }
+            .e-learn-headding{
+                width: 330px;
+                height: 120px;
+                margin: 0 auto;
+                margin-top: 20px;
+               
+             
+            }
+            .e-learn-para{
+                width: 330px;
+                height: 210px;
+                margin-top: 10px;
+                margin: 0 auto;
+             
+            }
+            .highlight{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                width: 335px;
+            }
+
+
+
 
 }
